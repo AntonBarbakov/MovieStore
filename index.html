@@ -87,18 +87,24 @@
   </div>
 
 
-  <div id="moviePanel">
-    <div class="row justify-content-center">
-      <div id="firstMovie">
-       <img src="img/posters/infinitywarimax2.jpg" alt="" class="movieImg" onclick="showAvengers()">
-      
-      </div>
-   <div id="secondMovie">
+<div id="moviePanel">
+  <div class="row justify-content-center">
+    <div id="firstMovie" class="row">
+         <a data-toggle="collapse" href="#firstMovieInformation" role="button" aria-expanded="false" aria-controls="firstMovieInformation">
+           <img src="img/posters/infinitywarimax2.jpg" alt="" class="movieImg" onclick="showAvengers()"></a>
+         <div id="firstMovieInformation" class="collapse">
+            Anim pariatur cliche reprehenderit, enim<br> 
+            eiusmod high life accusamus terry richardson<br> 
+            ad squid. Nihil anim keffiyeh helvetica, <br>
+            craft beer labore wes anderson cred <br>
+            nesciunt sapiente ea proident.
+         </div>
+    </div>
+    <div id="secondMovie">
       <img src="img/posters/justiceleague_9.jpg" alt="" class="movieImg" onclick="showLeague()">
-      
     </div>
   </div>
-  </div>
+</div>
 </main>
   <!-- SCRIPTS -->
   <script type="text/javascript" src="js/script.js"></script>

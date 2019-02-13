@@ -54,7 +54,10 @@ nav{
    background-color: white;
 }
 /*NAVIGATION*/
- ul>li>a>i{
+ 
+
+
+ul>li>a>i{
    margin-left:5px;
    border-radius: 10px;
  }
@@ -70,8 +73,8 @@ nav{
  }
 
  .movieImg{
-    width:400px;
-    height: 600px;
+    width: 300px;
+    height: 450px;
  }
  .movieImg:hover{
     cursor: pointer;
