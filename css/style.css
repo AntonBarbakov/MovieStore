@@ -2,7 +2,7 @@
  /*NAVIGATION*/
  .navLink::before{
    content:"";
-   background: rgb(139, 7, 7);
+   background: #d8232a;
    border-radius: 5px;
    color:white;
    -moz-border-radius: 5px;
@@ -19,7 +19,7 @@
 @media(max-width:576px){
    .navLink::before{
       content:"";
-      background: rgb(139, 7, 7);
+      background: #d8232a;
       border-radius: 5px;
       color:white;
       -moz-border-radius: 5px;
@@ -63,7 +63,7 @@ ul>li>a>i{
  }
  img{
     width: 100%;
-    height: 650px;
+    height: 100%;
  }   
  .carousel{
     margin-top:60px;
@@ -79,3 +79,63 @@ ul>li>a>i{
  .movieImg:hover{
     cursor: pointer;
  }
+#moviePanel{
+   background-color: #edeff0;
+   
+}
+
+.movieInformation{
+   border: 2px solid;
+   margin: 3px;
+   margin-right: 18px;
+   width: 296px;
+   height: 446px;
+   padding : 5px;
+   
+}
+
+   /*SEARCHBAR*/
+.has-search .form-control {
+  padding-left: 2.375rem;
+  margin-left: 45%;
+  margin-top: 15px;
+ 
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  margin-top: 15px;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  margin-left: 43.5%;
+}
+   /*SEARCHBAR*/
+
+   /* MoviePanelNavbar*/
+#MoviePanelNavBar{
+   height: 100px;
+   box-shadow: 0 0 1em gray;
+}
+#MoviePanelNavBar>#moviePanelName>h4{
+   margin-top: 15px;
+   margin-left:10%;
+}
+#MoviePanelNavBar>#moviePanelNavigate>#moviePanelNavigateLinks{
+   margin-top: 15px;
+   margin-left:20%;
+   
+}
+
+#MoviePanelNavBar>#moviePanelNavigate>#moviePanelNavigateLinks>a{
+   color: black;
+}
+
+#postersPanel{
+   margin-top: 30px;
+}

@@ -11,4 +11,11 @@ function showAvengers(){
     for(let i=0;i<imgArr.length;i++){
         imgArr[i].setAttribute("src", "img/avengers/"+i+".jpg")
     }
+   
+}
+function showGuardians(){
+    for(let i=0;i<imgArr.length;i++){
+        imgArr[i].setAttribute("src", "img/guardians/"+i+".jpg")
+    }
+   
 }
