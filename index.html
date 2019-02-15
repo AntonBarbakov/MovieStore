@@ -1,4 +1,5 @@
 <!--2Month study progress-->
+<!--Bootstrap & jQuery-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -90,19 +91,19 @@
 
 <div id="moviePanel">
   <div class="row justify-content-around navbar" id="MoviePanelNavBar">
-    <div id="moviePanelName" class="col-4 ">
+    <div id="moviePanelName" class="col-4 nav-item">
       <h4><b>FEATURED MOVIES</b></h4>
     </div>
-    <div id="moviePanelNavigate" class="col-3">
-      <div id="moviePanelNavigateLinks">
+    <div id="moviePanelNavigate" class="col-3 nav-item">
+      <div id="moviePanelNavigateLinks" class="row">
         
         <a href="#" class="navbar-brand"><em>New Realised</em></a>
-        /
+        
         <a href="#" class="navbar-brand"><em>Trailers & Clips</em></a>
       
     </div>
     </div>
-    <div class="form-group has-search col-5" id="searchbar">
+    <div class="form-group has-search col-5 nav-item" id="searchbar">
         <span class="fa fa-search form-control-feedback col-4"></span>
         <input type="text" class="form-control col-4" placeholder="Search">
       </div>
@@ -113,8 +114,8 @@
   
     <div id="firstMovie" class="row">
          <a data-toggle="collapse" href="#firstMovieInformation" role="button" aria-expanded="false" aria-controls="firstMovieInformation">
-           <img src="img/posters/infinitywarimax2.jpg" alt="" class="movieImg card-header" onclick="showAvengers()"></a>
-         <div id="firstMovieInformation" class="collapse movieInformation card-body">
+           <img src="img/posters/infinitywarimax2.jpg" alt="" class="movieImg card-header card" onclick="showAvengers()"></a>
+         <div id="firstMovieInformation" class="collapse movieInformation card-body card">
            <div id="intoFirstMovieInformation">
             Anim pariatur cliche reprehenderit, enim<br> 
             eiusmod high life accusamus terry richardson<br> 
@@ -128,8 +129,8 @@
 
     <div id="secondMovie" class="row">
         <a data-toggle="collapse" href="#secondMovieInformation" role="button" aria-expanded="false" aria-controls="secondMovieInformation">
-      <img src="img/posters/justiceleague_9.jpg" alt="" class="movieImg card-header" onclick="showLeague()"></a>
-      <div id="secondMovieInformation" class="collapse movieInformation card-body">
+      <img src="img/posters/justiceleague_9.jpg" alt="" class="movieImg card-header card" onclick="showLeague()"></a>
+      <div id="secondMovieInformation" class="collapse movieInformation card-body card">
           <div id="intoSecondMovieInformation">
            Anim pariatur cliche reprehenderit, enim<br> 
            eiusmod high life accusamus terry richardson<br> 
@@ -143,8 +144,8 @@
     
     <div id="thirdMovie" class="row">
         <a data-toggle="collapse" href="#thirdMovieInformation" role="button" aria-expanded="false" aria-controls="thirdMovieInformation">
-        <img src="img/posters/e059b3c4a9781wg68z96z.jpg" alt="" class="movieImg card-header" onclick="showGuardians()"></a>
-        <div id="thirdMovieInformation" class="collapse movieInformation card-body">
+        <img src="img/posters/e059b3c4a9781wg68z96z.jpg" alt="" class="movieImg card-header card" onclick="showGuardians()"></a>
+        <div id="thirdMovieInformation" class="collapse movieInformation card-body card">
             <div id="intoThirdMovieInformation">
              Anim pariatur cliche reprehenderit, enim<br> 
              eiusmod high life accusamus terry richardson<br> 
