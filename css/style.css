@@ -1,4 +1,7 @@
- 
+ body{
+   background-color: #edeff0;
+   width:98%;
+ }
  /*NAVIGATION*/
  .navLink::before{
    content:"";
@@ -32,7 +35,9 @@
       transition : all .5s;
       opacity: 0;
    }
-   
+   #linkBasket{
+      margin-left: 0px;
+   }
 }
 
 #linkForum:hover::before{
@@ -51,8 +56,21 @@
    opacity: 1;
    content: "Games";
 }
+#linkBasket:hover::before{
+   opacity: 1;
+   content: "Basket";
+}
+#linkAccount:hover::before{
+   opacity: 1;
+   content: "Account";
+   width:70px;
+}
 nav{
    background-color: white;
+}
+
+#linkBasket{
+   
 }
 /*NAVIGATION*/
  
@@ -121,6 +139,7 @@ ul>li>a>i{
 #MoviePanelNavBar{
    height: 100px;
    box-shadow: 0 0 1em gray;
+   width: 103%;
 }
 #MoviePanelNavBar>#moviePanelName>h4{
    margin-top: 15px;
@@ -140,4 +159,11 @@ ul>li>a>i{
 
 #postersPanel{
    margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+footer{
+   background-color: white;
+   box-shadow: 0 0 1em gray; 
+   width: 102%;
 }
