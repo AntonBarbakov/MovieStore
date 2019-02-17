@@ -167,3 +167,7 @@ footer{
    box-shadow: 0 0 1em gray; 
    width: 102%;
 }
+
+.footer-copyright{
+   text-align: center;
+}
